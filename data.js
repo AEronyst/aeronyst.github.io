@@ -80,16 +80,16 @@ window.PORTFOLIO_DATA = {
         {
           "id": "itm-ad-1",
           "type": "youtube",
+          "youtubeId": "0_MF7rnHyfo",
+          "title": { "ko": "다니고 메가 펌프 기획.촬영.편집", "en": "Ad Film Example" },
+          "thumbnail": "https://i.ytimg.com/vi/0_MF7rnHyfo/hqdefault.jpg"
+        },
+        {
+          "id": "itm-ad-1",
+          "type": "youtube",
           "youtubeId": "aVaX3ouw_e0",
           "title": { "ko": "광고 영상 예시", "en": "Ad Film Example" },
           "thumbnail": "https://i.ytimg.com/vi/aVaX3ouw_e0/hqdefault.jpg"
-        },
-        {
-          "id": "itm-ad-2",
-          "type": "image",
-          "url": "uploads/광고 브랜디드 컨텐츠.png",
-          "filename": "광고 브랜디드 컨텐츠.png",
-          "title": { "ko": "브랜디드 콘텐츠", "en": "Branded Content" }
         }
       ]
     },
