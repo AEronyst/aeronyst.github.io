@@ -239,20 +239,14 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
       "hue": 220, "cover": "covers/cat-drama.png",
       "items": [
-        {
-          "id": "itm-drama-1",
-          "type": "youtube",
-          "youtubeId": "0_MF7rnHyfo",
-          "title": { "ko": "드라마 · 영화 · MV", "en": "Drama · Film · MV" },
-          "thumbnail": "https://i.ytimg.com/vi/0_MF7rnHyfo/hqdefault.jpg"
-        },
-        {
-          "id": "itm-drama-2",
-          "type": "image",
-          "url": "uploads/드라마 영화 뮤직비디오.png",
-          "filename": "드라마 영화 뮤직비디오.png",
-          "title": { "ko": "드라마 · 영화 · MV", "en": "Drama · Film · MV" }
-        }
+    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-drama-1-adobe)
+    {
+      "id": "itm-drama-2",
+      "type": "youtube",
+      "youtubeId": "o-X_BK_z6bA",
+      "title": { "ko": "[본스타강남 Cover Recoding Class] 본스타 보컬 보컬여신의 뮤직비디오", "en": "Bornstar Vocal Cover MV" },
+      "thumbnail": "https://i.ytimg.com/vi/o-X_BK_z6bA/hqdefault.jpg"
+    }
       ]
     },
     {
@@ -260,20 +254,21 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "웹 예능 · 유튜브", "en": "Web Variety · YouTube" },
       "hue": 32, "cover": "covers/cat-web.png",
       "items": [
-        {
-          "id": "itm-web-1",
-          "type": "youtube",
-          "youtubeId": "0TGP9VU_Fis",
-          "title": { "ko": "웹예능 · 유튜브", "en": "Web Variety · YouTube" },
-          "thumbnail": "https://i.ytimg.com/vi/0TGP9VU_Fis/hqdefault.jpg"
-        },
-        {
-          "id": "itm-web-2",
-          "type": "image",
-          "url": "uploads/웹예능 유튜브.png",
-          "filename": "웹예능 유튜브.png",
-          "title": { "ko": "웹예능 · 유튜브", "en": "Web Variety · YouTube" }
-        }
+    {
+      "id": "itm-web-1",
+      "type": "youtube",
+      "youtubeId": "GWJC2kszsRA",
+      "title": { "ko": "차모아 클로버 멀티 컵홀더 100% 사용법", "en": "Chamoa Clover Cup Holder How-to" },
+      "thumbnail": "https://i.ytimg.com/vi/GWJC2kszsRA/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-2",
+      "type": "youtube",
+      "youtubeId": "UkBxOCFPn-0",
+      "title": { "ko": "웹예능 [본스타에 산다] 뉴욕에서 온 마리아 좌충우돌 k-pop 도전기", "en": "Bornstar Web Show - Maria K-pop Challenge" },
+      "thumbnail": "https://i.ytimg.com/vi/UkBxOCFPn-0/hqdefault.jpg"
+    }
+    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-web-3-adobe)
       ]
     },
     {
@@ -281,20 +276,28 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "행사 · 세미나", "en": "Events · Seminars" },
       "hue": 280, "cover": "covers/cat-event.png",
       "items": [
-        {
-          "id": "itm-event-1",
-          "type": "youtube",
-          "youtubeId": "U8CFJigxmAU",
-          "title": { "ko": "행사 · 세미나", "en": "Events · Seminars" },
-          "thumbnail": "https://i.ytimg.com/vi/U8CFJigxmAU/hqdefault.jpg"
-        },
-        {
-          "id": "itm-event-2",
-          "type": "image",
-          "url": "uploads/행사 세비나.png",
-          "filename": "행사 세비나.png",
-          "title": { "ko": "행사 · 세미나", "en": "Events · Seminars" }
-        }
+    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-event-1-adobe)
+    {
+      "id": "itm-event-2",
+      "type": "youtube",
+      "youtubeId": "lAqKxhO-e6U",
+      "title": { "ko": "정보석 선생님이 말하는 힘든시기를 버티는 법", "en": "Bornstar Lecture - Jung Boseok" },
+      "thumbnail": "https://i.ytimg.com/vi/lAqKxhO-e6U/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-3",
+      "type": "youtube",
+      "youtubeId": "lQSW179uDYs",
+      "title": { "ko": "KBS 연예대상 유동근 선생님이 말하는 배우가 되기 위해...", "en": "Bornstar Lecture - Yoo Donggeun" },
+      "thumbnail": "https://i.ytimg.com/vi/lQSW179uDYs/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-4",
+      "type": "youtube",
+      "youtubeId": "0lntNtSI1Yw",
+      "title": { "ko": "김태원 원장님 \"재능과 노력은?\"", "en": "Bornstar Lecture - Kim Taewon" },
+      "thumbnail": "https://i.ytimg.com/vi/0lntNtSI1Yw/hqdefault.jpg"
+    }
       ]
     },
     {
@@ -323,20 +326,35 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "글로벌 콘텐츠 지원", "en": "International Support" },
       "hue": 150, "cover": "covers/cat-intl.png",
       "items": [
-        {
-          "id": "itm-intl-1",
-          "type": "youtube",
-          "youtubeId": "WT8_H0w4-KQ",
-          "title": { "ko": "글로벌 콘텐츠 지원", "en": "International Support" },
-          "thumbnail": "https://i.ytimg.com/vi/WT8_H0w4-KQ/hqdefault.jpg"
-        },
-        {
-          "id": "itm-intl-2",
-          "type": "image",
-          "url": "uploads/글로벌컨텐츠 지원.png",
-          "filename": "글로벌컨텐츠 지원.png",
-          "title": { "ko": "글로벌 콘텐츠 지원", "en": "International Support" }
-        }
+    // ⚠️ 비유튜브(Adobe CCV) - 과학기술통신부 X 한국인터넷진흥원 영문 번역 및 자막 작업 → 별도 정리 참조
+    {
+      "id": "itm-intl-2",
+      "type": "youtube",
+      "youtubeId": "8jC-cInZOQk",
+      "title": { "ko": "니가드키즈 사용 설명 영상 (영문 자막 작업)", "en": "KneeGuardKids Instruction Video - EN Subtitles" },
+      "thumbnail": "https://i.ytimg.com/vi/8jC-cInZOQk/hqdefault.jpg"
+    },
+    {
+      "id": "itm-intl-3",
+      "type": "youtube",
+      "youtubeId": "6LzQBKzF4rA",
+      "title": { "ko": "차모아 클로버멀티컵홀더 (일본어 번역+나레이션+자막)", "en": "Chamoa Cup Holder - JP Narration & Subtitles" },
+      "thumbnail": "https://i.ytimg.com/vi/6LzQBKzF4rA/hqdefault.jpg"
+    },
+    {
+      "id": "itm-intl-4",
+      "type": "youtube",
+      "youtubeId": "gKUX8O10NT0",
+      "title": { "ko": "차모아 클로버멀티컵홀더 (일본어 자막 작업)", "en": "Chamoa Cup Holder - JP Subtitles" },
+      "thumbnail": "https://i.ytimg.com/vi/gKUX8O10NT0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-intl-5",
+      "type": "youtube",
+      "youtubeId": "AksEcs1EnwE",
+      "title": { "ko": "제품 광고 (일본 인플루언서 섭외)", "en": "Product Ad - JP Influencer" },
+      "thumbnail": "https://i.ytimg.com/vi/AksEcs1EnwE/hqdefault.jpg"
+    }
       ]
     },
     {
@@ -344,20 +362,48 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "그 외 작업", "en": "Other Works" },
       "hue": 0, "cover": "covers/cat-other.png",
       "items": [
-        {
-          "id": "itm-other-1",
-          "type": "youtube",
-          "youtubeId": "D_DViWqBXLM",
-          "title": { "ko": "그 외 작업", "en": "Other Works" },
-          "thumbnail": "https://i.ytimg.com/vi/D_DViWqBXLM/hqdefault.jpg"
-        },
-        {
-          "id": "itm-other-2",
-          "type": "image",
-          "url": "uploads/그외 작업.png",
-          "filename": "그외 작업.png",
-          "title": { "ko": "그 외 작업", "en": "Other Works" }
-        }
+    {
+      "id": "itm-etc-1",
+      "type": "youtube",
+      "youtubeId": "jzpyx2eUso0",
+      "title": { "ko": "조리홈 인터뷰 8", "en": "Jorihome Interview 8" },
+      "thumbnail": "https://i.ytimg.com/vi/jzpyx2eUso0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-2",
+      "type": "youtube",
+      "youtubeId": "uvqSgkBmwEo",
+      "title": { "ko": "아기의 편안한 수면을 위한 방법 소아과 전문의 인터뷰 영상", "en": "KneeGuardKids - Pediatrician Interview" },
+      "thumbnail": "https://i.ytimg.com/vi/uvqSgkBmwEo/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-3",
+      "type": "youtube",
+      "youtubeId": "YvT-kr2ifJw",
+      "title": { "ko": "셀토스 식빵등 DIY 쉽고 간단하게 설치 하는 방법", "en": "Chamoa Seltos Bread Light DIY Install" },
+      "thumbnail": "https://i.ytimg.com/vi/YvT-kr2ifJw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-4",
+      "type": "youtube",
+      "youtubeId": "Y9-H5ibHlO8",
+      "title": { "ko": "[차모아] 니가드키즈4 사용설명서", "en": "Chamoa KneeGuardKids4 Manual" },
+      "thumbnail": "https://i.ytimg.com/vi/Y9-H5ibHlO8/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-5",
+      "type": "youtube",
+      "youtubeId": "wpl90HXqZi0",
+      "title": { "ko": "아기베개 사용방법 [니가드키즈 아기베개]", "en": "KneeGuardKids Baby Pillow How-to" },
+      "thumbnail": "https://i.ytimg.com/vi/wpl90HXqZi0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-6",
+      "type": "youtube",
+      "youtubeId": "BOXBGaBM5e0",
+      "title": { "ko": "어른인 저도 불편한데 아이들은 얼마나 힘이 들까요? (니가드키즈 성인 실험영상)", "en": "KneeGuardKids Adult Test Video" },
+      "thumbnail": "https://i.ytimg.com/vi/BOXBGaBM5e0/hqdefault.jpg"
+    }
       ]
     },
     {
