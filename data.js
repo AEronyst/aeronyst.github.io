@@ -78,19 +78,166 @@ window.PORTFOLIO_DATA = {
       "hue": 12, "cover": "covers/cat-ad.png",
       "items": [
         {
-          "id": "itm-ad-1",
-          "type": "youtube",
-          "youtubeId": "0_MF7rnHyfo",
-          "title": { "ko": "다니고 메가 펌프 기획.촬영.편집", "en": "Ad Film Example" },
-          "thumbnail": "https://i.ytimg.com/vi/0_MF7rnHyfo/hqdefault.jpg"
-        },
-        {
-          "id": "itm-ad-1",
-          "type": "youtube",
-          "youtubeId": "aVaX3ouw_e0",
-          "title": { "ko": "광고 영상 예시", "en": "Ad Film Example" },
-          "thumbnail": "https://i.ytimg.com/vi/aVaX3ouw_e0/hqdefault.jpg"
-        }
+  "id": "cat-ad",
+  "title": { "ko": "광고 · 브랜디드 콘텐츠", "en": "Advertising · Branded" },
+  "items": [
+    {
+      "id": "itm-ad-1",
+      "type": "youtube",
+      "youtubeId": "0_MF7rnHyfo",
+      "title": { "ko": "MEGA PUMP 2.0 - 여행을 더 스마트 하게! 미니 에어펌프", "en": "MEGA PUMP 2.0 - Danigo" },
+      "thumbnail": "https://i.ytimg.com/vi/0_MF7rnHyfo/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-2",
+      "type": "youtube",
+      "youtubeId": "QJeEUiuHKf8",
+      "title": { "ko": "피오네르 여행용 플렉시블 목베개", "en": "Pioner Neck Pillow" },
+      "thumbnail": "https://i.ytimg.com/vi/QJeEUiuHKf8/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-3",
+      "type": "youtube",
+      "youtubeId": "XpXOpLSIn2c",
+      "title": { "ko": "당뇨 환자를 위한 로우쿡 저당 밥솥 기획자 인터뷰", "en": "Low Sugar Rice Cooker Interview" },
+      "thumbnail": "https://i.ytimg.com/vi/XpXOpLSIn2c/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-4",
+      "type": "youtube",
+      "youtubeId": "qIQQdu_Bibk",
+      "title": { "ko": "차모아 클로버 차량용 멀티컵홀더", "en": "Chamoa Clover Multi Cup Holder" },
+      "thumbnail": "https://i.ytimg.com/vi/qIQQdu_Bibk/hqdefault.jpg"
+    },
+    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-ad-5-adobe)
+    {
+      "id": "itm-ad-6",
+      "type": "youtube",
+      "youtubeId": "siRHPCErngw",
+      "title": { "ko": "화장실 각종 악취 벌레 모두 해결! 배수구트랩", "en": "IGODA Drain Trap" },
+      "thumbnail": "https://i.ytimg.com/vi/siRHPCErngw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-7",
+      "type": "youtube",
+      "youtubeId": "yaP60PP3VhI",
+      "title": { "ko": "아직도 비위생적인 거름망 사용하시나요?", "en": "IGODA Drain Filter" },
+      "thumbnail": "https://i.ytimg.com/vi/yaP60PP3VhI/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-8",
+      "type": "youtube",
+      "youtubeId": "XNsi1qGi-Cw",
+      "title": { "ko": "이고다 태블릿 거치대", "en": "IGODA Tablet Stand" },
+      "thumbnail": "https://i.ytimg.com/vi/XNsi1qGi-Cw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-9",
+      "type": "youtube",
+      "youtubeId": "uW1I4EiBXE8",
+      "title": { "ko": "위티미티 유청분리기 사용법", "en": "Wittymitty Whey Separator" },
+      "thumbnail": "https://i.ytimg.com/vi/uW1I4EiBXE8/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-10",
+      "type": "youtube",
+      "youtubeId": "0TGP9VU_Fis",
+      "title": { "ko": "우리 아기 목욕 도우미 니가드키즈 폴딩 샤워스탠더", "en": "KneeGuardKids Folding Shower Stand" },
+      "thumbnail": "https://i.ytimg.com/vi/0TGP9VU_Fis/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-11",
+      "type": "youtube",
+      "youtubeId": "SuaFfBIlfoQ",
+      "title": { "ko": "감성있는 불멍 필수 아이템 불명화로대", "en": "Danigo Healing Ethanol Lamp" },
+      "thumbnail": "https://i.ytimg.com/vi/SuaFfBIlfoQ/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-12",
+      "type": "youtube",
+      "youtubeId": "zULz5DOa4UY",
+      "title": { "ko": "바라바 반려견·반려묘를 위한 펫도어", "en": "BARABA Pet Door" },
+      "thumbnail": "https://i.ytimg.com/vi/zULz5DOa4UY/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-13",
+      "type": "youtube",
+      "youtubeId": "iJxCJ_iUYK0",
+      "title": { "ko": "스트레스 받는 날! 매운 맛이 당기는 날! 일품미각 쭈꾸미", "en": "Ilpummigas Spicy Squid" },
+      "thumbnail": "https://i.ytimg.com/vi/iJxCJ_iUYK0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-14",
+      "type": "youtube",
+      "youtubeId": "u1Da1OA0I6o",
+      "title": { "ko": "이고다 티타늄 혀클리너", "en": "IGODA Titanium Tongue Cleaner" },
+      "thumbnail": "https://i.ytimg.com/vi/u1Da1OA0I6o/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-15",
+      "type": "youtube",
+      "youtubeId": "xJ3xkMK9hqM",
+      "title": { "ko": "일품미각 기사식당 돼지볼백", "en": "Ilpummigas Pork Dish" },
+      "thumbnail": "https://i.ytimg.com/vi/xJ3xkMK9hqM/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-16",
+      "type": "youtube",
+      "youtubeId": "U8CFJigxmAU",
+      "title": { "ko": "[닭갈비 떡볶이 레시피] 집에서 간단하게 끓여먹기", "en": "Ilpummigas Dakgalbi Tteokbokki" },
+      "thumbnail": "https://i.ytimg.com/vi/U8CFJigxmAU/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-17",
+      "type": "youtube",
+      "youtubeId": "3BMy4ebnLmo",
+      "title": { "ko": "바라바 산책고민 NO! 애견슬링백", "en": "BARABA Dog Sling Bag" },
+      "thumbnail": "https://i.ytimg.com/vi/3BMy4ebnLmo/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-18",
+      "type": "youtube",
+      "youtubeId": "Hy9-Xd5L0iw",
+      "title": { "ko": "다이어트에 딱이고, 술안주로 실패 없는 편육", "en": "Ilpummigas Pyunyuk" },
+      "thumbnail": "https://i.ytimg.com/vi/Hy9-Xd5L0iw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-19",
+      "type": "youtube",
+      "youtubeId": "S-uGlt3HsH8",
+      "title": { "ko": "파이어독 차량용 소화기 사용방법", "en": "FIREDOG Car Extinguisher" },
+      "thumbnail": "https://i.ytimg.com/vi/S-uGlt3HsH8/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-20",
+      "type": "youtube",
+      "youtubeId": "aVaX3ouw_e0",
+      "title": { "ko": "다니고 접이식 멀티 쇼핑카트", "en": "Danigo Folding Shopping Cart" },
+      "thumbnail": "https://i.ytimg.com/vi/aVaX3ouw_e0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-21",
+      "type": "youtube",
+      "youtubeId": "vVYK19q2A0Q",
+      "title": { "ko": "이고다 세탁기전용 배수구트랩 사용설명서", "en": "IGODA Washing Machine Drain Trap" },
+      "thumbnail": "https://i.ytimg.com/vi/vVYK19q2A0Q/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-22",
+      "type": "youtube",
+      "youtubeId": "f0YTiU5vZYA",
+      "title": { "ko": "닥터프리 브랜드영상", "en": "Dr.Free Brand Film" },
+      "thumbnail": "https://i.ytimg.com/vi/f0YTiU5vZYA/hqdefault.jpg"
+    },
+    {
+      "id": "itm-ad-23",
+      "type": "youtube",
+      "youtubeId": "lOBBpp_wcRA",
+      "title": { "ko": "쓰면 쓸수록 편한데? 차모아 자동차 번호판 키링", "en": "Chamoa Car License Plate Keyring" },
+      "thumbnail": "https://i.ytimg.com/vi/lOBBpp_wcRA/hqdefault.jpg"
+    }
+  ]
+}
       ]
     },
     {
