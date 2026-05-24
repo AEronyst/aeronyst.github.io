@@ -77,10 +77,6 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "광고 · 브랜디드 콘텐츠", "en": "Advertising · Branded" },
       "hue": 12, "cover": "covers/cat-ad.png",
       "items": [
-        {
-  "id": "cat-ad",
-  "title": { "ko": "광고 · 브랜디드 콘텐츠", "en": "Advertising · Branded" },
-  "items": [
     {
       "id": "itm-ad-1",
       "type": "youtube",
@@ -236,8 +232,6 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "쓰면 쓸수록 편한데? 차모아 자동차 번호판 키링", "en": "Chamoa Car License Plate Keyring" },
       "thumbnail": "https://i.ytimg.com/vi/lOBBpp_wcRA/hqdefault.jpg"
     }
-  ]
-}
       ]
     },
     {
