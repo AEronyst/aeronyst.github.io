@@ -128,6 +128,13 @@ window.PORTFOLIO_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/OWQLFBGERyQ/hqdefault.jpg"
     },
     {
+      "id": "itm-ad-new-1",
+      "type": "youtube",
+      "youtubeId": "pf00c_WaizE",
+      "title": { "ko": "라면의 깊은 맛을 살리는 안심 컵라면 도자기 - 큰컵", "en": "Ansim Cup Ramen Ceramic - Large Cup" },
+      "thumbnail": "https://i.ytimg.com/vi/pf00c_WaizE/hqdefault.jpg"
+    },
+    {
       "id": "itm-ad-8",
       "type": "youtube",
       "youtubeId": "XNsi1qGi-Cw",
@@ -264,15 +271,22 @@ window.PORTFOLIO_DATA = {
       "id": "itm-drama-3",
       "type": "youtube",
       "youtubeId": "8ek8e1A_m6Y",
-      "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
+      "title": { "ko": "[Cover]Havana-Camila Cabello Covered by Bornstar Kim gahyun", "en": "[Cover]Havana-Camila Cabello Covered by Bornstar Kim gahyun" },
       "thumbnail": "https://i.ytimg.com/vi/8ek8e1A_m6Y/hqdefault.jpg"
     },
     {
       "id": "itm-drama-4",
       "type": "youtube",
       "youtubeId": "XD49tF9LwPs",
-      "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
+      "title": { "ko": "[Dance Cover] 더운 여름 시원한 댄스영상으로 열심히세요!!! Tinashe-Me So Bad", "en": "[Dance Cover] Tinashe-Me So Bad Covered by Bornstar" },
       "thumbnail": "https://i.ytimg.com/vi/XD49tF9LwPs/hqdefault.jpg"
+    },
+    {
+      "id": "itm-drama-5",
+      "type": "youtube",
+      "youtubeId": "YIYBLiaK1XI",
+      "title": { "ko": "[울림라세션-박광선_Love Fiction] Live MV With : Bornstar", "en": "[Ulrim La Session-Park Kwang-seon_Love Fiction] Live MV With : Bornstar" },
+      "thumbnail": "https://i.ytimg.com/vi/YIYBLiaK1XI/hqdefault.jpg"
     }
       ]
     },
@@ -289,11 +303,32 @@ window.PORTFOLIO_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/GWJC2kszsRA/hqdefault.jpg"
     },
     {
+      "id": "itm-web-new-1",
+      "type": "youtube",
+      "youtubeId": "dTrwDBnPtCI",
+      "title": { "ko": "웹 예능 [본스타에산다] 뉴욕에서 온 마리아 좌충우돌 K-POP도전기 1화 보컬레슨", "en": "Web Show [Living at Bornstar] Maria from New York - K-POP Challenge EP.1 Vocal Lesson" },
+      "thumbnail": "https://i.ytimg.com/vi/dTrwDBnPtCI/hqdefault.jpg"
+    },
+    {
       "id": "itm-web-2",
       "type": "youtube",
       "youtubeId": "UkBxOCFPn-0",
       "title": { "ko": "웹예능 [본스타에 산다] 뉴욕에서 온 마리아 좌충우돌 k-pop 도전기", "en": "Bornstar Web Show - Maria K-pop Challenge" },
       "thumbnail": "https://i.ytimg.com/vi/UkBxOCFPn-0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-new-2",
+      "type": "youtube",
+      "youtubeId": "CRNTykgWCEU",
+      "title": { "ko": "트럼프 경호차량 셰보레 타호 국내 판매시기는?", "en": "When Will Trump's Security Vehicle Chevrolet Tahoe Go on Sale in Korea?" },
+      "thumbnail": "https://i.ytimg.com/vi/CRNTykgWCEU/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-new-3",
+      "type": "youtube",
+      "youtubeId": "Wl450wA06tk",
+      "title": { "ko": "뜻밖의 탈출! 경차 사기전에 꼭 보세요! 국내 저렴한 TOP4 경차", "en": "Must Watch Before Buying a Mini Car! TOP4 Affordable Mini Cars in Korea" },
+      "thumbnail": "https://i.ytimg.com/vi/Wl450wA06tk/hqdefault.jpg"
     },
     {
       "id": "itm-web-01",
@@ -378,6 +413,41 @@ window.PORTFOLIO_DATA = {
       "youtubeId": "0lntNtSI1Yw",
       "title": { "ko": "김태원 원장님 \"재능과 노력은?\"", "en": "Bornstar Lecture - Kim Taewon" },
       "thumbnail": "https://i.ytimg.com/vi/0lntNtSI1Yw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-5",
+      "type": "youtube",
+      "youtubeId": "pbjbkcGoloo",
+      "title": { "ko": "배우 홍석천 본스타트레이닝센터 특강", "en": "Bornstar Special Lecture - Actor Hong Seok-cheon" },
+      "thumbnail": "https://i.ytimg.com/vi/pbjbkcGoloo/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-6",
+      "type": "youtube",
+      "youtubeId": "rwLKtn5_Xf0",
+      "title": { "ko": "배우 정경호 특강 - 나를 알아가는 과정", "en": "Bornstar Special Lecture - Actor Jung Kyung-ho" },
+      "thumbnail": "https://i.ytimg.com/vi/rwLKtn5_Xf0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-7",
+      "type": "youtube",
+      "youtubeId": "9A1da47jLD0",
+      "title": { "ko": "배우 김영옥 선생님의 본스타 수강생 지도", "en": "Bornstar - Guidance by Actress Kim Young-ok" },
+      "thumbnail": "https://i.ytimg.com/vi/9A1da47jLD0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-8",
+      "type": "youtube",
+      "youtubeId": "a0zvseVGtJY",
+      "title": { "ko": "배우 임현식 선생님의 본스타 수강생 지도", "en": "Bornstar - Guidance by Actor Im Hyun-sik" },
+      "thumbnail": "https://i.ytimg.com/vi/a0zvseVGtJY/hqdefault.jpg"
+    },
+    {
+      "id": "itm-event-9",
+      "type": "youtube",
+      "youtubeId": "KobsnyKTUFA",
+      "title": { "ko": "관객들 마음을 적신 R&B 보컬 가수 문명진 특강", "en": "Bornstar Special Lecture - R&B Vocalist Moon Myung-jin" },
+      "thumbnail": "https://i.ytimg.com/vi/KobsnyKTUFA/hqdefault.jpg"
     }
       ]
     },
@@ -390,7 +460,7 @@ window.PORTFOLIO_DATA = {
           "id": "itm-3d-1",
           "type": "youtube",
           "youtubeId": "ptW97r5Nb3E",
-          "title": { "ko": "AI생성 콘텐츠", "en": "AI-Generated Content" },
+          "title": { "ko": "2026년 반드시 알아야 할 경제 위기 5가지 | AI가 당신 일자리를 빼앗는 속도", "en": "5 Economic Crises You Must Know in 2026 | The Speed AI Is Taking Your Job" },
           "thumbnail": "https://i.ytimg.com/vi/ptW97r5Nb3E/hqdefault.jpg"
         },
         {
@@ -785,7 +855,7 @@ window.PORTFOLIO_DATA = {
           "id": "itm-space-1",
           "type": "youtube",
           "youtubeId": "veFwN8Uz48g",
-          "title": { "ko": "공간 디자인", "en": "Space Design" },
+          "title": { "ko": "[아리아 스튜디오] 편리하고 합리적인 주거공간 스튜디오", "en": "[Aria Studio] Convenient and Affordable Living Space Studio" },
           "thumbnail": "https://i.ytimg.com/vi/veFwN8Uz48g/hqdefault.jpg"
         }
       ]
