@@ -351,17 +351,13 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "행사 · 세미나", "en": "Events · Seminars" },
       "hue": 280, "cover": "covers/cat-event.png",
       "items": [
-    { "id": "cat-drama",
-  "items": [
     {
       "id": "itm-drama-01",
       "type": "youtube",
       "youtubeId": "z6Ij0AJTBsI",
       "title": { "ko": "영화 보는 것 같은 넷플릭스 식전 영상", "en": "Netflix-style Pre-Show Video" },
       "thumbnail": "https://i.ytimg.com/vi/z6Ij0AJTBsI/hqdefault.jpg"
-    }
-  ]
-},
+    },
     {
       "id": "itm-event-2",
       "type": "youtube",
