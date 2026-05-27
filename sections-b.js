@@ -118,7 +118,7 @@ window.CategoryItem = function CategoryItem({ item, lang, onImageClick }) {
     return React.createElement("div", { className: "cat-item" },
       React.createElement("div", { className: "cat-item-media" },
         React.createElement("iframe", {
-          src: `https://www.youtube-nocookie.com/embed/${item.youtubeId}?rel=0&playsinline=1`,
+          src: `https://www.youtube-nocookie.com/embed/${item.youtubeId}?rel=0&playsinline=1&hl=${lang}`,
           width: "100%", height: "100%",
           frameBorder: "0",
           allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen",
