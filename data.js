@@ -490,6 +490,48 @@ window.PORTFOLIO_DATA = {
           "url": "uploads/3D 비주얼라이제이션.gif",
           "filename": "3D 비주얼라이제이션.gif",
           "title": { "ko": "3D 비주얼라이제이션", "en": "3D Visualization" }
+        },
+        {
+          "id": "itm-3d-3",
+          "type": "image",
+          "url": "uploads/컵홀더 3D 애니메니션 및 재질 작업.gif",
+          "filename": "컵홀더 3D 애니메니션 및 재질 작업.gif",
+          "title": { "ko": "컵홀더 3D 애니메니션 및 재질 작업", "en": "Cup Holder 3D Animation & Material Work" }
+        },
+        {
+          "id": "itm-3d-4",
+          "type": "image",
+          "url": "uploads/폴딩 샤워스탠더 3D 애니메이션 및 재질 작업.gif",
+          "filename": "폴딩 샤워스탠더 3D 애니메이션 및 재질 작업.gif",
+          "title": { "ko": "폴딩 샤워스탠더 3D 애니메이션 및 재질 작업", "en": "Folding Shower Stand 3D Animation & Material Work" }
+        },
+        {
+          "id": "itm-3d-5",
+          "type": "image",
+          "url": "uploads/니가드키즈4 3D 애니메니션 및 재질 작업.gif",
+          "filename": "니가드키즈4 3D 애니메니션 및 재질 작업.gif",
+          "title": { "ko": "니가드키즈4 3D 애니메니션 및 재질 작업", "en": "NeeGuard Kids4 3D Animation & Material Work" }
+        },
+        {
+          "id": "itm-3d-6",
+          "type": "image",
+          "url": "uploads/휴대폰 충전 거치대 3D 애니메이션 작업 및 재질 작업.gif",
+          "filename": "휴대폰 충전 거치대 3D 애니메이션 작업 및 재질 작업.gif",
+          "title": { "ko": "휴대폰 충전 거치대 3D 애니메이션 작업 및 재질 작업", "en": "Phone Charging Stand 3D Animation & Material Work" }
+        },
+        {
+          "id": "itm-3d-7",
+          "type": "image",
+          "url": "uploads/젖병 세척기 3D 애니메이션 및 재질 작업 .gif",
+          "filename": "젖병 세척기 3D 애니메이션 및 재질 작업 .gif",
+          "title": { "ko": "젖병 세척기 3D 애니메이션 및 재질 작업", "en": "Baby Bottle Washer 3D Animation & Material Work" }
+        },
+        {
+          "id": "itm-3d-8",
+          "type": "image",
+          "url": "uploads/코일 매트 3D 애니메이션 및 재질 작업.gif",
+          "filename": "코일 매트 3D 애니메이션 및 재질 작업.gif",
+          "title": { "ko": "코일 매트 3D 애니메이션 및 재질 작업", "en": "Coil Mat 3D Animation & Material Work" }
         }
       ]
     },
@@ -857,6 +899,69 @@ window.PORTFOLIO_DATA = {
           "youtubeId": "veFwN8Uz48g",
           "title": { "ko": "[아리아 스튜디오] 편리하고 합리적인 주거공간 스튜디오", "en": "[Aria Studio] Convenient and Affordable Living Space Studio" },
           "thumbnail": "https://i.ytimg.com/vi/veFwN8Uz48g/hqdefault.jpg"
+        },
+        {
+          "id": "itm-space-2",
+          "type": "image",
+          "url": "uploads/키친스튜디오.jpg",
+          "filename": "키친스튜디오.jpg",
+          "title": { "ko": "키친스튜디오", "en": "Kitchen Studio" }
+        },
+        {
+          "id": "itm-space-3",
+          "type": "image",
+          "url": "uploads/키친스튜디오1.jpg",
+          "filename": "키친스튜디오1.jpg",
+          "title": { "ko": "키친스튜디오", "en": "Kitchen Studio" }
+        },
+        {
+          "id": "itm-space-4",
+          "type": "image",
+          "url": "uploads/키친스튜디오2.jpg",
+          "filename": "키친스튜디오2.jpg",
+          "title": { "ko": "키친스튜디오", "en": "Kitchen Studio" }
+        },
+        {
+          "id": "itm-space-5",
+          "type": "image",
+          "url": "uploads/침실1.jpg",
+          "filename": "침실1.jpg",
+          "title": { "ko": "침실", "en": "Bedroom" }
+        },
+        {
+          "id": "itm-space-6",
+          "type": "image",
+          "url": "uploads/침실2.jpg",
+          "filename": "침실2.jpg",
+          "title": { "ko": "침실", "en": "Bedroom" }
+        },
+        {
+          "id": "itm-space-7",
+          "type": "image",
+          "url": "uploads/욕실.jpg",
+          "filename": "욕실.jpg",
+          "title": { "ko": "욕실", "en": "Bathroom" }
+        },
+        {
+          "id": "itm-space-8",
+          "type": "image",
+          "url": "uploads/스튜디오 조감도.jpg",
+          "filename": "스튜디오 조감도.jpg",
+          "title": { "ko": "스튜디오 조감도", "en": "Studio Bird's Eye View" }
+        },
+        {
+          "id": "itm-space-9",
+          "type": "image",
+          "url": "uploads/스튜디오 조감도1.jpg",
+          "filename": "스튜디오 조감도1.jpg",
+          "title": { "ko": "스튜디오 조감도", "en": "Studio Bird's Eye View" }
+        },
+        {
+          "id": "itm-space-10",
+          "type": "image",
+          "url": "uploads/스튜디오 조감도2.jpg",
+          "filename": "스튜디오 조감도2.jpg",
+          "title": { "ko": "스튜디오 조감도", "en": "Studio Bird's Eye View" }
         }
       ]
     }
