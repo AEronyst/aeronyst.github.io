@@ -121,6 +121,13 @@ window.PORTFOLIO_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/yaP60PP3VhI/hqdefault.jpg"
     },
     {
+      "id": "itm-ad-01",
+      "type": "youtube",
+      "youtubeId": "OWQLFBGERyQ",
+      "title": { "ko": "VT 마스크 팩 기획·촬영·편집", "en": "VT Mask Pack Planning·Filming·Editing" },
+      "thumbnail": "https://i.ytimg.com/vi/OWQLFBGERyQ/hqdefault.jpg"
+    },
+    {
       "id": "itm-ad-8",
       "type": "youtube",
       "youtubeId": "XNsi1qGi-Cw",
@@ -239,13 +246,33 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
       "hue": 220, "cover": "covers/cat-drama.png",
       "items": [
-    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-drama-1-adobe)
+    {
+      "id": "itm-etc-01",
+      "type": "youtube",
+      "youtubeId": "YYZxwz_tUGs",
+      "title": { "ko": "2020년 6·25전쟁 70주년 UCC 수상작 \"이젠 저희가 지켜내겠습니다\"", "en": "2020 Korean War 70th Anniversary UCC Award" },
+      "thumbnail": "https://i.ytimg.com/vi/YYZxwz_tUGs/hqdefault.jpg"
+    },
     {
       "id": "itm-drama-2",
       "type": "youtube",
       "youtubeId": "o-X_BK_z6bA",
       "title": { "ko": "[본스타강남 Cover Recoding Class] 본스타 보컬 보컬여신의 뮤직비디오", "en": "Bornstar Vocal Cover MV" },
       "thumbnail": "https://i.ytimg.com/vi/o-X_BK_z6bA/hqdefault.jpg"
+    },
+    {
+      "id": "itm-drama-3",
+      "type": "youtube",
+      "youtubeId": "8ek8e1A_m6Y",
+      "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
+      "thumbnail": "https://i.ytimg.com/vi/8ek8e1A_m6Y/hqdefault.jpg"
+    },
+    {
+      "id": "itm-drama-4",
+      "type": "youtube",
+      "youtubeId": "XD49tF9LwPs",
+      "title": { "ko": "드라마 · 영화 · 뮤직비디오", "en": "Drama · Film · MV" },
+      "thumbnail": "https://i.ytimg.com/vi/XD49tF9LwPs/hqdefault.jpg"
     }
       ]
     },
@@ -267,8 +294,56 @@ window.PORTFOLIO_DATA = {
       "youtubeId": "UkBxOCFPn-0",
       "title": { "ko": "웹예능 [본스타에 산다] 뉴욕에서 온 마리아 좌충우돌 k-pop 도전기", "en": "Bornstar Web Show - Maria K-pop Challenge" },
       "thumbnail": "https://i.ytimg.com/vi/UkBxOCFPn-0/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-01",
+      "type": "youtube",
+      "youtubeId": "rDakcJqMJiw",
+      "title": { "ko": "잼투고 SelfMaking 파라다이스", "en": "Jamtogo SelfMaking Paradise" },
+      "thumbnail": "https://i.ytimg.com/vi/rDakcJqMJiw/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-02",
+      "type": "youtube",
+      "youtubeId": "ap-lFxzeyLI",
+      "title": { "ko": "잼투고 Creator Talk Paradise Edit", "en": "Jamtogo Creator Talk Paradise Edit" },
+      "thumbnail": "https://i.ytimg.com/vi/ap-lFxzeyLI/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-03",
+      "type": "youtube",
+      "youtubeId": "_ZwwXndA1kg",
+      "title": { "ko": "잼투고 크리에이터 톡 설지오", "en": "Jamtogo Creator Talk Seoljio" },
+      "thumbnail": "https://i.ytimg.com/vi/_ZwwXndA1kg/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-04",
+      "type": "youtube",
+      "youtubeId": "nLjugi-AtKg",
+      "title": { "ko": "잼투고 크리에이터 톡 싱어송라이터 허지영", "en": "Jamtogo Creator Talk Singer-Songwriter Heo Jiyoung" },
+      "thumbnail": "https://i.ytimg.com/vi/nLjugi-AtKg/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-05",
+      "type": "youtube",
+      "youtubeId": "YcoVZZnM-KU",
+      "title": { "ko": "잼투고 크리에이터 톡 니켈Nickel", "en": "Jamtogo Creator Talk Nickel" },
+      "thumbnail": "https://i.ytimg.com/vi/YcoVZZnM-KU/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-06",
+      "type": "youtube",
+      "youtubeId": "-26ldupFQtE",
+      "title": { "ko": "잼투고 크리에이터 톡 김영규", "en": "Jamtogo Creator Talk Kim Yeonggyu" },
+      "thumbnail": "https://i.ytimg.com/vi/-26ldupFQtE/hqdefault.jpg"
+    },
+    {
+      "id": "itm-web-07",
+      "type": "youtube",
+      "youtubeId": "MQBzupSvfP4",
+      "title": { "ko": "잼투고 크리에이터 톡 랩퍼 9rm구름", "en": "Jamtogo Creator Talk Rapper 9rm Gureum" },
+      "thumbnail": "https://i.ytimg.com/vi/MQBzupSvfP4/hqdefault.jpg"
     }
-    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-web-3-adobe)
       ]
     },
     {
@@ -326,7 +401,87 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "글로벌 콘텐츠 지원", "en": "International Support" },
       "hue": 150, "cover": "covers/cat-intl.png",
       "items": [
-    // ⚠️ 비유튜브(Adobe CCV) - 과학기술통신부 X 한국인터넷진흥원 영문 번역 및 자막 작업 → 별도 정리 참조
+
+    // 1. sk플래닛
+    {
+      "id": "itm-sub-01",
+      "type": "youtube",
+      "youtubeId": "PIZ3BjbVspY",
+      "title": { "ko": "sk플래닛 영어 나레이션 자막작업", "en": "SK Planet English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/PIZ3BjbVspY/hqdefault.jpg"
+    },
+
+    // 2. 펀블
+    {
+      "id": "itm-sub-02",
+      "type": "youtube",
+      "youtubeId": "9WKVUM56Vto",
+      "title": { "ko": "펀블 영어 나레이션 자막작업", "en": "Funble English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/9WKVUM56Vto/hqdefault.jpg"
+    },
+
+    // 3. 파라메타
+    {
+      "id": "itm-sub-03",
+      "type": "youtube",
+      "youtubeId": "JUCw40tIZbo",
+      "title": { "ko": "파라메타 영어 나레이션 자막작업", "en": "Parameta English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/JUCw40tIZbo/hqdefault.jpg"
+    },
+
+    // 4. 체리
+    {
+      "id": "itm-sub-04",
+      "type": "youtube",
+      "youtubeId": "iDEqqBNAPSE",
+      "title": { "ko": "체리 영어 나레이션 자막작업", "en": "Cherry English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/iDEqqBNAPSE/hqdefault.jpg"
+    },
+
+    // 5. 지크립토
+    {
+      "id": "itm-sub-05",
+      "type": "youtube",
+      "youtubeId": "t7yGu2G3xwI",
+      "title": { "ko": "지크립토 영어 나레이션 자막작업", "en": "Zicrypto English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/t7yGu2G3xwI/hqdefault.jpg"
+    },
+
+    // 6. 원컵
+    {
+      "id": "itm-sub-06",
+      "type": "youtube",
+      "youtubeId": "seYdwTVmXtQ",
+      "title": { "ko": "원컵 영어 나레이션 자막작업", "en": "Onecup English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/seYdwTVmXtQ/hqdefault.jpg"
+    },
+
+    // 7. 아타드
+    {
+      "id": "itm-sub-07",
+      "type": "youtube",
+      "youtubeId": "NlCElzviisc",
+      "title": { "ko": "아타드 영어 나레이션 자막작업", "en": "Atad English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/NlCElzviisc/hqdefault.jpg"
+    },
+
+    // 8. 라온
+    {
+      "id": "itm-sub-08",
+      "type": "youtube",
+      "youtubeId": "_ycT1pXfvhU",
+      "title": { "ko": "라온 영어 나레이션 자막작업", "en": "Raon English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/_ycT1pXfvhU/hqdefault.jpg"
+    },
+
+    // 9. 내스타일
+    {
+      "id": "itm-sub-09",
+      "type": "youtube",
+      "youtubeId": "kxN52DksdEY",
+      "title": { "ko": "내스타일 영어 나레이션 자막작업", "en": "Naestyle English Narration Subtitle" },
+      "thumbnail": "https://i.ytimg.com/vi/kxN52DksdEY/hqdefault.jpg"
+    },
     {
       "id": "itm-intl-2",
       "type": "youtube",
@@ -411,13 +566,187 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "라이브커머스", "en": "Live Commerce" },
       "hue": 340, "cover": "covers/cat-live.png",
       "items": [
-        {
-          "id": "itm-live-1",
-          "type": "image",
-          "url": "uploads/라이브 커머스.png",
-          "filename": "라이브 커머스.png",
-          "title": { "ko": "라이브커머스", "en": "Live Commerce" }
-        }
+
+    // 1. 2023 05 23
+    {
+      "id": "itm-nsl-01",
+      "type": "youtube",
+      "youtubeId": "Nj4tLnpuI0o",
+      "title": { "ko": "2023 05 23 네이버쇼핑라이브", "en": "2023 05 23 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/Nj4tLnpuI0o/hqdefault.jpg"
+    },
+
+    // 2. 2023 04 11
+    {
+      "id": "itm-nsl-02",
+      "type": "youtube",
+      "youtubeId": "sDIIxoCXUXU",
+      "title": { "ko": "2023 04 11 네이버쇼핑라이브", "en": "2023 04 11 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/sDIIxoCXUXU/hqdefault.jpg"
+    },
+
+    // 3. 2022 11 22
+    {
+      "id": "itm-nsl-03",
+      "type": "youtube",
+      "youtubeId": "VsIaS2oJRjU",
+      "title": { "ko": "2022 11 22 네이버쇼핑라이브", "en": "2022 11 22 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/VsIaS2oJRjU/hqdefault.jpg"
+    },
+
+    // 4. 2022 10 18
+    {
+      "id": "itm-nsl-04",
+      "type": "youtube",
+      "youtubeId": "bnZUuG0E_5s",
+      "title": { "ko": "2022 10 18 네이버쇼핑라이브", "en": "2022 10 18 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/bnZUuG0E_5s/hqdefault.jpg"
+    },
+
+    // 5. 2022 09 27 - 1회차
+    {
+      "id": "itm-nsl-05",
+      "type": "youtube",
+      "youtubeId": "S6jd5d1uIR0",
+      "title": { "ko": "2022 09 27 네이버쇼핑라이브 1회차", "en": "2022 09 27 Naver Shopping Live EP.1" },
+      "thumbnail": "https://i.ytimg.com/vi/S6jd5d1uIR0/hqdefault.jpg"
+    },
+
+    // 6. 2022 09 27 - 2회차
+    {
+      "id": "itm-nsl-06",
+      "type": "youtube",
+      "youtubeId": "J8YowNGqz80",
+      "title": { "ko": "2022 09 27 네이버쇼핑라이브 2회차", "en": "2022 09 27 Naver Shopping Live EP.2" },
+      "thumbnail": "https://i.ytimg.com/vi/J8YowNGqz80/hqdefault.jpg"
+    },
+
+    // 7. 2022 08 23 - 1회차
+    {
+      "id": "itm-nsl-07",
+      "type": "youtube",
+      "youtubeId": "T5CXUQBzZNw",
+      "title": { "ko": "2022 08 23 네이버쇼핑라이브 1회차", "en": "2022 08 23 Naver Shopping Live EP.1" },
+      "thumbnail": "https://i.ytimg.com/vi/T5CXUQBzZNw/hqdefault.jpg"
+    },
+
+    // 8. 2022 08 23 - 2회차
+    {
+      "id": "itm-nsl-08",
+      "type": "youtube",
+      "youtubeId": "0_19YcmbmeY",
+      "title": { "ko": "2022 08 23 네이버쇼핑라이브 2회차", "en": "2022 08 23 Naver Shopping Live EP.2" },
+      "thumbnail": "https://i.ytimg.com/vi/0_19YcmbmeY/hqdefault.jpg"
+    },
+
+    // 9. 2022 06 04 - 1회차
+    {
+      "id": "itm-nsl-09",
+      "type": "youtube",
+      "youtubeId": "BN8CfRDgIfI",
+      "title": { "ko": "2022 06 04 네이버쇼핑라이브 1회차", "en": "2022 06 04 Naver Shopping Live EP.1" },
+      "thumbnail": "https://i.ytimg.com/vi/BN8CfRDgIfI/hqdefault.jpg"
+    },
+
+    // 10. 2022 06 04 - 2회차
+    {
+      "id": "itm-nsl-10",
+      "type": "youtube",
+      "youtubeId": "Y3kw2HAJsmY",
+      "title": { "ko": "2022 06 04 네이버쇼핑라이브 2회차", "en": "2022 06 04 Naver Shopping Live EP.2" },
+      "thumbnail": "https://i.ytimg.com/vi/Y3kw2HAJsmY/hqdefault.jpg"
+    },
+
+    // 11. 2022 05 24
+    {
+      "id": "itm-nsl-11",
+      "type": "youtube",
+      "youtubeId": "B8Qvr71Spmo",
+      "title": { "ko": "2022 05 24 네이버쇼핑라이브", "en": "2022 05 24 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/B8Qvr71Spmo/hqdefault.jpg"
+    },
+
+    // 12. 2022 03 31
+    {
+      "id": "itm-nsl-12",
+      "type": "youtube",
+      "youtubeId": "55fiLW33l6s",
+      "title": { "ko": "2022 03 31 네이버쇼핑라이브", "en": "2022 03 31 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/55fiLW33l6s/hqdefault.jpg"
+    },
+
+    // 13. 2022 02 28 - 1회차
+    {
+      "id": "itm-nsl-13",
+      "type": "youtube",
+      "youtubeId": "sVUgHcAIBRw",
+      "title": { "ko": "2022 02 28 네이버쇼핑라이브 1회차", "en": "2022 02 28 Naver Shopping Live EP.1" },
+      "thumbnail": "https://i.ytimg.com/vi/sVUgHcAIBRw/hqdefault.jpg"
+    },
+
+    // 14. 2022 02 28 - 2회차
+    {
+      "id": "itm-nsl-14",
+      "type": "youtube",
+      "youtubeId": "76LznE96Rus",
+      "title": { "ko": "2022 02 28 네이버쇼핑라이브 2회차", "en": "2022 02 28 Naver Shopping Live EP.2" },
+      "thumbnail": "https://i.ytimg.com/vi/76LznE96Rus/hqdefault.jpg"
+    },
+
+    // 15. 2021 12 20
+    {
+      "id": "itm-nsl-15",
+      "type": "youtube",
+      "youtubeId": "7GUXus0oS20",
+      "title": { "ko": "2021 12 20 네이버쇼핑라이브", "en": "2021 12 20 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/7GUXus0oS20/hqdefault.jpg"
+    },
+
+    // 16. 2021 09 30
+    {
+      "id": "itm-nsl-16",
+      "type": "youtube",
+      "youtubeId": "fLRsOFaXtOk",
+      "title": { "ko": "2021 09 30 네이버쇼핑라이브", "en": "2021 09 30 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/fLRsOFaXtOk/hqdefault.jpg"
+    },
+
+    // 17. 2021 08 29 - 1회차
+    {
+      "id": "itm-nsl-17",
+      "type": "youtube",
+      "youtubeId": "qoiQ8HRwwRM",
+      "title": { "ko": "2021 08 29 네이버쇼핑라이브 1회차", "en": "2021 08 29 Naver Shopping Live EP.1" },
+      "thumbnail": "https://i.ytimg.com/vi/qoiQ8HRwwRM/hqdefault.jpg"
+    },
+
+    // 18. 2021 08 29 - 2회차
+    {
+      "id": "itm-nsl-18",
+      "type": "youtube",
+      "youtubeId": "vxnZzRqb8Kc",
+      "title": { "ko": "2021 08 29 네이버쇼핑라이브 2회차", "en": "2021 08 29 Naver Shopping Live EP.2" },
+      "thumbnail": "https://i.ytimg.com/vi/vxnZzRqb8Kc/hqdefault.jpg"
+    },
+
+    // 19. 2021 04 24
+    {
+      "id": "itm-nsl-19",
+      "type": "youtube",
+      "youtubeId": "wXSJXmZGg_Y",
+      "title": { "ko": "2021 04 24 네이버쇼핑라이브", "en": "2021 04 24 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/wXSJXmZGg_Y/hqdefault.jpg"
+    },
+
+    // 20. 2020 12 08
+    {
+      "id": "itm-nsl-20",
+      "type": "youtube",
+      "youtubeId": "uufdIUDLHGk",
+      "title": { "ko": "2020 12 08 네이버쇼핑라이브", "en": "2020 12 08 Naver Shopping Live" },
+      "thumbnail": "https://i.ytimg.com/vi/uufdIUDLHGk/hqdefault.jpg"
+    }
+
       ]
     },
     {
