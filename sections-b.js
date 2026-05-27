@@ -53,47 +53,66 @@ window.WorkGrid = function WorkGrid({ data, lang }) {
 };
 
 window.CategoryDetail = function CategoryDetail({ category, catIndex, lang, onClose }) {
+  const [lightboxIdx, setLightboxIdx] = React.useState(null);
+
   React.useEffect(() => {
-    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    const onKey = (e) => { if (e.key === "Escape" && lightboxIdx == null) onClose(); };
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
     return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
-  }, [onClose]);
+  }, [onClose, lightboxIdx]);
 
   const items = category.items || [];
+  const imageItems = items.filter(it => it.type === "image");
   const stop = (e) => e.stopPropagation();
 
-  return React.createElement("div", { className: "cat-modal-overlay", onClick: onClose },
-    React.createElement("div", { className: "cat-modal", onClick: stop },
-      React.createElement("button", { className: "cat-modal-close", onClick: onClose, "aria-label": "Close" }, "✕"),
-      React.createElement("div", { className: "cat-modal-hero" },
-        category.cover && React.createElement("img", { src: category.cover, alt: "" }),
-        React.createElement("div", { className: "cat-modal-hero-shade" }),
-        React.createElement("div", { className: "cat-modal-hero-content" },
-          React.createElement("div", { className: "cat-modal-hero-eyebrow" },
-            String(catIndex + 1).padStart(2, "0"), " · ", lang === "ko" ? "카테고리" : "Category"),
-          React.createElement("h2", { className: "cat-modal-hero-title" }, window.t(category.title, lang))
+  const openLightbox = (item) => {
+    const idx = imageItems.findIndex(it => it.id === item.id);
+    if (idx !== -1) setLightboxIdx(idx);
+  };
+
+  return React.createElement(React.Fragment, null,
+    React.createElement("div", { className: "cat-modal-overlay", onClick: onClose },
+      React.createElement("div", { className: "cat-modal", onClick: stop },
+        React.createElement("button", { className: "cat-modal-close", onClick: onClose, "aria-label": "Close" }, "✕"),
+        React.createElement("div", { className: "cat-modal-hero" },
+          category.cover && React.createElement("img", { src: category.cover, alt: "" }),
+          React.createElement("div", { className: "cat-modal-hero-shade" }),
+          React.createElement("div", { className: "cat-modal-hero-content" },
+            React.createElement("div", { className: "cat-modal-hero-eyebrow" },
+              String(catIndex + 1).padStart(2, "0"), " · ", lang === "ko" ? "카테고리" : "Category"),
+            React.createElement("h2", { className: "cat-modal-hero-title" }, window.t(category.title, lang))
+          )
+        ),
+        React.createElement("div", { className: "cat-modal-body" },
+          items.length === 0
+            ? React.createElement("div", { className: "cat-empty" },
+                React.createElement("div", { className: "cat-empty-text" },
+                  lang === "ko" ? "아직 등록된 작업이 없습니다." : "No works yet.")
+              )
+            : React.createElement("div", { className: "cat-items-grid" },
+                items.map((it, idx) => React.createElement(window.CategoryItem, {
+                  key: it.id || idx,
+                  item: it,
+                  lang,
+                  onImageClick: it.type === "image" ? openLightbox : null,
+                }))
+              )
         )
-      ),
-      React.createElement("div", { className: "cat-modal-body" },
-        items.length === 0
-          ? React.createElement("div", { className: "cat-empty" },
-              React.createElement("div", { className: "cat-empty-text" },
-                lang === "ko" ? "아직 등록된 작업이 없습니다." : "No works yet.")
-            )
-          : React.createElement("div", { className: "cat-items-grid" },
-              items.map((it, idx) => React.createElement(window.CategoryItem, {
-                key: it.id || idx,
-                item: it,
-                lang,
-              }))
-            )
       )
-    )
+    ),
+    lightboxIdx != null && React.createElement(window.ImageLightbox, {
+      items: imageItems,
+      index: lightboxIdx,
+      lang,
+      onClose: () => setLightboxIdx(null),
+      onPrev: () => setLightboxIdx((lightboxIdx - 1 + imageItems.length) % imageItems.length),
+      onNext: () => setLightboxIdx((lightboxIdx + 1) % imageItems.length),
+    })
   );
 };
 
-window.CategoryItem = function CategoryItem({ item, lang }) {
+window.CategoryItem = function CategoryItem({ item, lang, onImageClick }) {
   if (item.type === "youtube") {
     const watchUrl = `https://www.youtube.com/watch?v=${item.youtubeId}`;
     return React.createElement("div", { className: "cat-item" },
@@ -122,19 +141,59 @@ window.CategoryItem = function CategoryItem({ item, lang }) {
     );
   }
 
+  let media;
   if (item.type === "video") {
     media = React.createElement("video", { src: item.url, controls: true, preload: "metadata" });
   } else if (item.type === "image") {
-    media = React.createElement("img", { src: item.url, alt: window.t(item.title, lang) });
+    media = React.createElement("img", { src: item.url, alt: window.t(item.title, lang) || item.filename || "" });
   }
 
-  return React.createElement("div", { className: "cat-item" },
-    React.createElement("div", { className: "cat-item-media" }, media),
+  const isClickable = item.type === "image" && onImageClick;
+
+  return React.createElement("div", {
+    className: "cat-item" + (isClickable ? " cat-item--clickable" : ""),
+    onClick: isClickable ? () => onImageClick(item) : undefined,
+  },
+    React.createElement("div", { className: "cat-item-media" },
+      media,
+      isClickable && React.createElement("div", { className: "cat-item-zoom-hint" }, "⤢")
+    ),
     React.createElement("div", { className: "cat-item-body" },
       React.createElement("h3", { className: "cat-item-title" },
         window.t(item.title, lang) || (item.filename || "Untitled")),
       React.createElement("div", { className: "cat-item-meta" },
         item.type === "video" ? (lang === "ko" ? "비디오" : "Video") : (lang === "ko" ? "이미지" : "Image")
+      )
+    )
+  );
+};
+
+window.ImageLightbox = function ImageLightbox({ items, index, lang, onClose, onPrev, onNext }) {
+  React.useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === "Escape") { e.stopImmediatePropagation(); onClose(); }
+      if (e.key === "ArrowLeft") onPrev();
+      if (e.key === "ArrowRight") onNext();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [onClose, onPrev, onNext]);
+
+  const item = items[index];
+  const total = items.length;
+
+  return React.createElement("div", { className: "lightbox-overlay", onClick: onClose },
+    React.createElement("div", { className: "lightbox-content", onClick: (e) => e.stopPropagation() },
+      React.createElement("button", { className: "lightbox-close", onClick: onClose }, "✕"),
+      React.createElement("img", {
+        className: "lightbox-img",
+        src: item.url,
+        alt: window.t(item.title, lang) || item.filename || "",
+      }),
+      total > 1 && React.createElement(React.Fragment, null,
+        React.createElement("button", { className: "lightbox-nav lightbox-nav--prev", onClick: onPrev }, "‹"),
+        React.createElement("button", { className: "lightbox-nav lightbox-nav--next", onClick: onNext }, "›"),
+        React.createElement("div", { className: "lightbox-counter" }, (index + 1) + " / " + total)
       )
     )
   );
