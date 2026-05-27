@@ -494,9 +494,9 @@ window.PORTFOLIO_DATA = {
         {
           "id": "itm-3d-3",
           "type": "image",
-          "url": "uploads/컵홀더 3D 애니메니션 및 재질 작업.gif",
-          "filename": "컵홀더 3D 애니메니션 및 재질 작업.gif",
-          "title": { "ko": "컵홀더 3D 애니메니션 및 재질 작업", "en": "Cup Holder 3D Animation & Material Work" }
+          "url": "uploads/컵홀더 3D 애니메이션 및 재질 작업.gif",
+          "filename": "컵홀더 3D 애니메이션 및 재질 작업.gif",
+          "title": { "ko": "컵홀더 3D 애니메이션 및 재질 작업", "en": "Cup Holder 3D Animation & Material Work" }
         },
         {
           "id": "itm-3d-4",
@@ -510,7 +510,7 @@ window.PORTFOLIO_DATA = {
           "type": "image",
           "url": "uploads/니가드키즈4 3D 애니메니션 및 재질 작업.gif",
           "filename": "니가드키즈4 3D 애니메니션 및 재질 작업.gif",
-          "title": { "ko": "니가드키즈4 3D 애니메니션 및 재질 작업", "en": "NeeGuard Kids4 3D Animation & Material Work" }
+          "title": { "ko": "니가드키즈4 3D 애니메이션 및 재질 작업", "en": "NeeGuard Kids4 3D Animation & Material Work" }
         },
         {
           "id": "itm-3d-6",
