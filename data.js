@@ -3,7 +3,7 @@ window.PORTFOLIO_DATA = {
     "name": { "ko": "최종현", "en": "Jonghyun Choi" },
     "role": { "ko": "크리에이티브 영상 프로듀서 · 3D 아티스트", "en": "Creative Video Producer · 3D Artist" },
     "email": "aeronyst@gmail.com",
-    "location": { "ko": "서울, 대한민국", "en": "Seoul, Republic of Korea" }
+    "location": { "ko": "인천, 대한민국", "en": "Seoul, Republic of Korea" }
   },
   "hero": {
     "eyebrow": { "ko": "Portfolio · 2026", "en": "Portfolio · 2026" },
@@ -21,14 +21,14 @@ window.PORTFOLIO_DATA = {
   "stats": [
     { "value": "7+", "label": { "ko": "년의 경력", "en": "Years experience" } },
     { "value": { "ko": "8.2억", "en": "8.2억" }, "label": { "ko": "원 펀딩 달성", "en": "Funded" } },
-    { "value": "30+", "label": { "ko": "프로젝트", "en": "Projects shipped" } },
+    { "value": "200+", "label": { "ko": "프로젝트", "en": "Projects shipped" } },
     { "value": "360°", "label": { "ko": "기획→연출→후반", "en": "End‑to‑end production" } }
   ],
   "about": {
     "title": { "ko": "소개", "en": "About" },
     "body": {
-      "ko": "기획, 연출, 촬영, 편집, 3D까지 한 사람의 손에서 흐름이 끊기지 않는 작업을 추구합니다. 광고에서 출발해 드라마·뮤직비디오, 라이브커머스, 메타버스 3D 비주얼라이제이션까지 매체의 경계를 넘나들며 7년 동안 30개 이상의 프로젝트를 완성했습니다.",
-      "en": "I make films where the thread of an idea isn't broken between hands. Starting in advertising and moving through drama, music videos, live commerce, and 3D metaverse visualization, I've shipped 30+ projects in 7 years across every format."
+      "ko": "기획, 연출, 촬영, 편집, 3D까지 한 사람의 손에서 흐름이 끊기지 않는 작업을 추구합니다. 광고에서 출발해 드라마·뮤직비디오, 라이브커머스, 메타버스 3D 비주얼라이제이션까지 매체의 경계를 넘나들며 7년 동안 200개 이상의 프로젝트를 완성했습니다.",
+      "en": "I make films where the thread of an idea isn't broken between hands. Starting in advertising and moving through drama, music videos, live commerce, and 3D metaverse visualization, I've shipped 200+ projects in 7 years across every format."
     }
   },
   "capabilitiesSection": {
@@ -44,7 +44,7 @@ window.PORTFOLIO_DATA = {
     {
       "id": "cap-2",
       "title": { "ko": "촬영", "en": "Cinematography" },
-      "body": { "ko": "RED, ARRI, Sony 시네 카메라 운용. 짐벌·드론·스테디캠 운용 가능.", "en": "RED, ARRI, Sony cine cameras. Gimbal, drone, and steadicam operator." }
+      "body": { "ko": "Sony,Canon 카메라 운용. 짐벌·드론·스테디캠 운용 가능.", "en": "Sony,Canon cameras. Gimbal, drone, and steadicam operator." }
     },
     {
       "id": "cap-3",
@@ -53,8 +53,8 @@ window.PORTFOLIO_DATA = {
     },
     {
       "id": "cap-4",
-      "title": { "ko": "3D · CGI", "en": "3D · CGI" },
-      "body": { "ko": "Cinema 4D · Octane · Unreal Engine 5. 메타버스, 프로덕트 비주얼라이제이션, 가상 프로덕션.", "en": "Cinema 4D, Octane, Unreal Engine 5. Metaverse, product viz, virtual production." }
+      "title": { "ko": "3D · CGI · AI", "en": "3D · CGI · AI" },
+      "body": { "ko": "Cinema 4D · Redshift, 프로덕트 비주얼라이제이션, 여러 AI엔진 활용.", "en": "Cinema 4D, Redshift, product viz, virtual production, Utilizing Multiple AI Engines." }
     },
     {
       "id": "cap-5",
@@ -64,7 +64,7 @@ window.PORTFOLIO_DATA = {
     {
       "id": "cap-6",
       "title": { "ko": "라이브 · 멀티캠", "en": "Live · Multicam" },
-      "body": { "ko": "라이브커머스 누적 펀딩 8.2억원. 실시간 스위칭과 다채널 송출 운영.", "en": "₩820M cumulative live‑commerce funding. Real‑time switching and multi‑channel delivery." }
+      "body": { "ko": "라이브커머스, 실시간 스위칭과 다채널 송출 운영.", "en": " live‑commerce. Real‑time switching and multi‑channel delivery." }
     }
   ],
   "workSection": {
