@@ -534,7 +534,7 @@ window.PORTFOLIO_DATA = {
       "id": "itm-etc-1",
       "type": "youtube",
       "youtubeId": "jzpyx2eUso0",
-      "title": { "ko": "조리홈 인터뷰 8", "en": "Jorihome Interview 8" },
+      "title": { "ko": "조리흄 인터뷰", "en": "cooking oil fume Interview" },
       "thumbnail": "https://i.ytimg.com/vi/jzpyx2eUso0/hqdefault.jpg"
     },
     {
