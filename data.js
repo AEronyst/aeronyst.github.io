@@ -351,7 +351,17 @@ window.PORTFOLIO_DATA = {
       "title": { "ko": "행사 · 세미나", "en": "Events · Seminars" },
       "hue": 280, "cover": "covers/cat-event.png",
       "items": [
-    // ⚠️ 비유튜브(Adobe CCV) → 별도 정리 참조 (itm-event-1-adobe)
+    { "id": "cat-drama",
+  "items": [
+    {
+      "id": "itm-drama-01",
+      "type": "youtube",
+      "youtubeId": "z6Ij0AJTBsI",
+      "title": { "ko": "영화 보는 것 같은 넷플릭스 식전 영상", "en": "Netflix-style Pre-Show Video" },
+      "thumbnail": "https://i.ytimg.com/vi/z6Ij0AJTBsI/hqdefault.jpg"
+    }
+  ]
+},
     {
       "id": "itm-event-2",
       "type": "youtube",
@@ -383,9 +393,16 @@ window.PORTFOLIO_DATA = {
         {
           "id": "itm-3d-1",
           "type": "youtube",
-          "youtubeId": "QJeEUiuHKf8",
-          "title": { "ko": "3D 렌더링 · AI 생성", "en": "3D Rendering · AI Generated" },
-          "thumbnail": "https://i.ytimg.com/vi/QJeEUiuHKf8/hqdefault.jpg"
+          "youtubeId": "ptW97r5Nb3E",
+          "title": { "ko": "3D렌더링 · AI생성 콘텐츠", "en": "3D Rendering · AI-Generated Content" },
+          "thumbnail": "https://i.ytimg.com/vi/ptW97r5Nb3E/hqdefault.jpg"
+        },
+        {
+          "id": "itm-ai-01",
+          "type": "youtube",
+          "youtubeId": "D_DViWqBXLM",
+          "title": { "ko": "생성형 AI로만 만들어 본 삼성 갤럭시 S26 광고", "en": "Samsung Galaxy S26 Ad Made Only with Generative AI" },
+          "thumbnail": "https://i.ytimg.com/vi/D_DViWqBXLM/hqdefault.jpg"
         },
         {
           "id": "itm-3d-2",
