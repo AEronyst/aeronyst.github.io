@@ -390,7 +390,7 @@ window.PORTFOLIO_DATA = {
           "id": "itm-3d-1",
           "type": "youtube",
           "youtubeId": "ptW97r5Nb3E",
-          "title": { "ko": "3D렌더링 · AI생성 콘텐츠", "en": "3D Rendering · AI-Generated Content" },
+          "title": { "ko": "AI생성 콘텐츠", "en": "AI-Generated Content" },
           "thumbnail": "https://i.ytimg.com/vi/ptW97r5Nb3E/hqdefault.jpg"
         },
         {
@@ -766,7 +766,15 @@ window.PORTFOLIO_DATA = {
       "id": "cat-space",
       "title": { "ko": "공간 디자인", "en": "Space Design" },
       "hue": 60, "cover": "covers/cat-space.png",
-      "items": []
+      "items": [
+        {
+          "id": "itm-space-1",
+          "type": "youtube",
+          "youtubeId": "veFwN8Uz48g",
+          "title": { "ko": "공간 디자인", "en": "Space Design" },
+          "thumbnail": "https://i.ytimg.com/vi/veFwN8Uz48g/hqdefault.jpg"
+        }
+      ]
     }
   ],
   "career": {

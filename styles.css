@@ -766,3 +766,16 @@ body.edit-mode .editable-wrap:focus-within .translate-btn { display: inline-bloc
   .cat-items-grid { grid-template-columns: 1fr; }
   .cat-modal { margin: 0; border-radius: 0; }
 }
+
+@media print {
+  .nav,
+  .cta-row,
+  .cat-modal-overlay,
+  .toast { display: none !important; }
+
+  body { background: white; color: black; }
+  .hero { min-height: unset; padding: 40px 0 24px; }
+  .section, .stats { break-inside: avoid; }
+  .work-card, .cap-card { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}

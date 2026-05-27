@@ -8,7 +8,7 @@ window.Hero = function Hero({ data, lang }) {
       React.createElement("div", { className: "cta-row" },
         React.createElement("button", { className: "btn btn--primary", onClick: () => { const el = document.getElementById("work"); if (el) window.scrollTo({ top: el.offsetTop - 60, behavior: "smooth" }); } },
           window.t(h.primaryCta, lang), " →"),
-        React.createElement("button", { className: "btn btn--ghost" },
+        React.createElement("button", { className: "btn btn--ghost", onClick: () => window.print() },
           window.t(h.secondaryCta, lang), " ↗")
       )
     )
