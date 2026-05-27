@@ -394,6 +394,20 @@ window.PORTFOLIO_DATA = {
           "thumbnail": "https://i.ytimg.com/vi/ptW97r5Nb3E/hqdefault.jpg"
         },
         {
+          "id": "itm-ai-02",
+          "type": "youtube",
+          "youtubeId": "lXFQMG1Hks8",
+          "title": { "ko": "AI생성 콘텐츠", "en": "AI-Generated Content" },
+          "thumbnail": "https://i.ytimg.com/vi/lXFQMG1Hks8/hqdefault.jpg"
+        },
+        {
+          "id": "itm-ai-03",
+          "type": "youtube",
+          "youtubeId": "RsSD2ik66zI",
+          "title": { "ko": "AI생성 콘텐츠", "en": "AI-Generated Content" },
+          "thumbnail": "https://i.ytimg.com/vi/RsSD2ik66zI/hqdefault.jpg"
+        },
+        {
           "id": "itm-ai-01",
           "type": "youtube",
           "youtubeId": "D_DViWqBXLM",
