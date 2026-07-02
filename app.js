@@ -1,6 +1,7 @@
 window.App = function App() {
   const data = window.PORTFOLIO_DATA;
-  const [lang, setLang] = window.useStored("portfolio-lang", "ko");
+  const detectedLang = (navigator.language || "ko").toLowerCase().startsWith("ko") ? "ko" : "en";
+  const [lang, setLang] = window.useStored("portfolio-lang", detectedLang);
 
   React.useEffect(() => { window.applyTheme(data.theme); }, []);
   React.useEffect(() => { document.documentElement.lang = lang; }, [lang]);
