@@ -756,7 +756,7 @@ body.edit-mode .editable-wrap:focus-within .translate-btn { display: inline-bloc
   .work-grid--mosaic .work-tile:nth-child(4n+1),
   .work-grid--mosaic .work-tile:nth-child(4n+3) { grid-column: auto; grid-row: auto; aspect-ratio: 4/5; }
   .career-row { grid-template-columns: 70px 1fr; }
-  .career-row .career-badge { grid-column: 2; }
+  .career-row .career-badge { grid-column: 2; justify-self: start; }
   .cat-items-grid { grid-template-columns: repeat(2, 1fr); }
   .cat-modal-hero { height: 180px; }
   .cat-modal-body { padding: 22px; }
