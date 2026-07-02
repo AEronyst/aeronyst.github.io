@@ -678,6 +678,20 @@ window.PORTFOLIO_DATA = {
       "thumbnail": "https://i.ytimg.com/vi/YvT-kr2ifJw/hqdefault.jpg"
     },
     {
+      "id": "itm-etc-7",
+      "type": "youtube",
+      "youtubeId": "WLUWL3PwMCQ",
+      "title": { "ko": "피르패드 소개 영상", "en": "Firpad Introduction Video" },
+      "thumbnail": "https://i.ytimg.com/vi/WLUWL3PwMCQ/hqdefault.jpg"
+    },
+    {
+      "id": "itm-etc-8",
+      "type": "youtube",
+      "youtubeId": "pE_29bbR1kc",
+      "title": { "ko": "롤링핏 스킨케어 기기 및 엠플 소개 영상", "en": "Rollingfit Skincare Device & Ampoule Introduction Video" },
+      "thumbnail": "https://i.ytimg.com/vi/pE_29bbR1kc/hqdefault.jpg"
+    },
+    {
       "id": "itm-etc-4",
       "type": "youtube",
       "youtubeId": "Y9-H5ibHlO8",
