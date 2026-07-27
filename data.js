@@ -457,6 +457,13 @@ window.PORTFOLIO_DATA = {
       "hue": 180, "cover": "covers/cat-3d.gif",
       "items": [
         {
+          "id": "itm-3d-9",
+          "type": "youtube",
+          "youtubeId": "oOTX4WafxJA",
+          "title": { "ko": "[AI 생성 영상] 내가 머물고 싶은 곳", "en": "[AI Generated Video] A Place I Want to Stay" },
+          "thumbnail": "https://i.ytimg.com/vi/oOTX4WafxJA/hqdefault.jpg"
+        },
+        {
           "id": "itm-3d-1",
           "type": "youtube",
           "youtubeId": "ptW97r5Nb3E",
