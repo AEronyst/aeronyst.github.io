@@ -459,9 +459,9 @@ window.PORTFOLIO_DATA = {
         {
           "id": "itm-3d-10",
           "type": "youtube",
-          "youtubeId": "fiZuZNQzsi8",
-          "title": { "ko": "Xconda로 제작한 스토리형 MV 천년의 사랑(MADE WITH XCONDA — A Story-Driven Music Video)", "en": "Xconda로 제작한 스토리형 MV 천년의 사랑(MADE WITH XCONDA — A Story-Driven Music Video)" },
-          "thumbnail": "https://i.ytimg.com/vi/fiZuZNQzsi8/hqdefault.jpg"
+          "youtubeId": "wtYUG0sGWEA",
+          "title": { "ko": "[AI x 리얼 캐스팅] 단 한 컷의 촬영도 없는 5분 사극 서사 : 《천년의 사랑》", "en": "[AI x Real Casting] A 5-Min Historical Epic with Zero Real Footage : 《A Thousand Years of Love》" },
+          "thumbnail": "https://i.ytimg.com/vi/wtYUG0sGWEA/hqdefault.jpg"
         },
         {
           "id": "itm-3d-9",
