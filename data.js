@@ -998,6 +998,7 @@ window.PORTFOLIO_DATA = {
     "title": { "ko": "경력", "en": "Career" },
     "sub": { "ko": "2014 — 현재", "en": "2014 — Present" },
     "items": [
+      { "year": "2026.08", "title": { "ko": "2026년 소방안전 콘텐츠 공모전 — 대상", "en": "2026 Fire Safety Content Contest — Grand Prize" }, "body": { "ko": "인천소방본부 2026년 소방안전 콘텐츠 영상분야 대상 수상.", "en": "Grand Prize in the video category at the Incheon Fire Safety HQ 2026 Fire Safety Content Contest." }, "badge": { "ko": "대상", "en": "Award" } },
       { "year": "2025.05", "title": { "ko": "비플라쉐 — 제품 홍보영상", "en": "Beplache — Product Promo" }, "body": { "ko": "비플라쉐 제품 홍보영상 기획·연출·제작.", "en": "Concept, direction, and production for Beplache's product film." }, "badge": null },
       { "year": "2024.12", "title": { "ko": "과학기술정보통신부 × KISA — 블록체인 콘텐츠 영문 자막", "en": "MSIT × KISA — Blockchain Content Subtitles" }, "body": { "ko": "정부 부처 블록체인 콘텐츠의 영문 자막 작업.", "en": "English subtitle work on government blockchain content." }, "badge": { "ko": "정부", "en": "Gov" } },
       { "year": "2024.12", "title": { "ko": "한국소방안전본부 — 제품 홍보영상", "en": "Korea Fire Safety HQ — Product Promo" }, "body": { "ko": "한국소방안전본부 의뢰 홍보영상 제작.", "en": "Promotional film commissioned by Korea Fire Safety HQ." }, "badge": null },
