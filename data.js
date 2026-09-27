@@ -457,6 +457,13 @@ window.PORTFOLIO_DATA = {
       "hue": 180, "cover": "covers/cat-3d.gif",
       "items": [
         {
+          "id": "itm-3d-11",
+          "type": "youtube",
+          "youtubeId": "yBueSGCpz3c",
+          "title": { "ko": "[Xconda] Flexboard - Just one cut", "en": "[Xconda] Flexboard - Just one cut" },
+          "thumbnail": "https://i.ytimg.com/vi/yBueSGCpz3c/hqdefault.jpg"
+        },
+        {
           "id": "itm-3d-10",
           "type": "youtube",
           "youtubeId": "wtYUG0sGWEA",
