@@ -20,7 +20,7 @@ window.PORTFOLIO_DATA = {
   },
   "stats": [
     { "value": "7+", "label": { "ko": "년의 경력", "en": "Years experience" } },
-    { "value": { "ko": "8.2억", "en": "8.2억" }, "label": { "ko": "원 펀딩 달성", "en": "Funded" } },
+    { "value": { "ko": "12.5억", "en": "12.5억" }, "label": { "ko": "원 펀딩 달성", "en": "Funded" } },
     { "value": "200+", "label": { "ko": "프로젝트", "en": "Projects shipped" } },
     { "value": "360°", "label": { "ko": "기획→연출→후반", "en": "End‑to‑end production" } }
   ],
